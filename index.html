@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Machine Learner | An Introduction to Machine Learning</title>
+        <meta charset = "UTF-8">
+        <meta name = "author" content = "James Wayne P. Atkinson">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <link rel = "stylesheet" type = "text/CSS" href = "stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <div id = "header_box">
+                <div id = "logo_container">
+                    <img src = "images/logo.png" alt = "Logo">
+                    <h1 id = "webpage_title">The Machine Learner</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li id = "main_button"><h2>What is ML?</h2></li>
+                        <li id = "examples_button"><h2>Can I see it?</h2></li>
+                        <li id = "about_me_button"><h2>About Me</h2></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class = "main_box" id = "main_content">
+                <div class = "content_box_two_items" id = "background_box_1">
+                    <div class = "image_box">
+                        <img src = "images/DNN.png" width = "100%" id = "DNN">
+                    </div>
+                    <div class = "text_box">
+                        <h1>What is Machine Learning?</h1>
+                        <h3>Machine Learning is a branch of Artificial Intelligence that essentially focuses on the creation of complex 
+                            computer algorithms that accomplish complex tasks that cannot be easily accomplished through normal computer 
+                            programming. These complex tasks include grammar checking, image generation, intelligent text generation, and 
+                            other intelligent tasks. 
+                        </h3>
+                        <br>
+                        <h3>In Machine Learning, data is used to train programs called Machine Learning models. In most methods of Machine 
+                            Learning, a Machine Learning model trains on a set of data, performing a complex task based on the information 
+                            given to it by the set of data. As the Machine Learning model continues to train, it essentially gets better and 
+                            better at doing its complex task. Then, once the engineers deem that the model meets certain requirements and can 
+                            accomplish its complex task well enough, the Machine Learning model can be deemed as the final version of the model 
+                            which can then undergo other processes like testing and error evaluation. 
+                        </h3>
+                    </div>
+                </div>
+                <div class = "content_box_two_items">
+                    <div class = "text_box">
+                        <h1>How does Machine Learning work?</h1>
+                        <h3>Keep in mind that there are many methods of Machine Learning, each of which goes through the process of training a 
+                            Machine Learning model slightly differently from each other. However, most Machine Learning methods go through a 
+                            similar process that is reflected by the flowchart on the right. Though we did briefly touch on this general process 
+                            in the previous section, we will go into much greater detail about it in this section.
+                        </h3>
+                        <br>
+                        <h3>First, the model is trained through the use of training data. After the model is trained, it is then tested through 
+                            the use of another data set. This test of the model is to see if the model can already do its intended task well 
+                            enough after it underwent training. If the model passes the test, then it can be deemed a successful model. On the 
+                            other hand, if the model fails the test, the entire process starts over again with a new set of data and a few 
+                            alterations to the model.
+                        </h3>
+                    </div>
+                    <div class = "image_box">
+                        <img src = "images/ML-flowchart.png" width = "100%" id = "flowchart">
+                    </div>
+                </div>
+                <div class = "content_box_one_item" id = "background_box_2">
+                    <div class = "text_box">
+                        <h1>The Different Methods of Machine Learning</h1>
+                        <h3>There are many different Machine Learning methods however, there are 3 major methods of Machine Learning that are
+                            worth mentioning since it's under these 3 major methods where a lot of the other Machine Learning methods reside.
+                        </h3>
+                        <br>
+                        <a href = "#sml" class = "ml_method"><b>Supervised Machine Learning</b></a>
+                        <a href = "#uml" class = "ml_method"><b>Unsupervised Machine Learning</b></a>
+                        <a href = "#rml" class = "ml_method"><b>Reinforcement Machine Learning</b></a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class = "content_box_two_items" id = "sml">
+                    <div class = "text_box">
+                        <h1>Supervised Machine Learning</h1>
+                        <h3>Supervised Machine Learning is a method of Machine Learning that uses labeled data sets to train Machine Learning 
+                            models. What does this mean? It essentially means that the data set that's being used to train the model has already 
+                            been “processed” and that we already know the information that's inferred by the data. 
+                        </h3>
+                        <br>
+                        <h3>This method of Machine Learning is useful mainly in the creation of algorithms that are tasked with classification. 
+                            Furthermore, the Machine Learning methods that can be categorized under Supervised Machine Learning include neural 
+                            networks, logistic regression, and linear regression among others.
+                        </h3>
+                    </div>
+                    <div class = "image_box">
+                        <img src = "images/supervised-machine-learning.png" width = "100%" id = "supervised">
+                    </div>
+                </div>
+                <div class = "content_box_two_items" id = "uml">
+                    <div class = "image_box">
+                        <img src = "images/unsupervised-machine-learning.png" width = "100%" id = "unsupervised">
+                    </div>
+                    <div class = "text_box">
+                        <h1>Unsupervised Machine Learning</h1>
+                        <h3>Unsupervised Machine Learning is a method of Machine Learning that, unlike with Supervised Machine Learning, uses 
+                            unlabeled data to train Machine Learning models. Here, the unlabeled and “unprocessed” nature of the data being used 
+                            makes this method ideal for the creation of algorithms that can find patterns in data sets. 
+                        </h3>
+                        <br>
+                        <h3>One popular instance of how Unsupervised Machine Learning can be utilized is with the grouping of multiple items 
+                            in a data set since Unsupervised Machine Learning is effective at distinguishing the differences between items in 
+                            a data set.
+                        </h3>
+                    </div>
+                </div>
+                <div class = "content_box_two_items" id = "rml">
+                    <div class = "text_box">
+                        <h1>Reinforcement Learning</h1>
+                        <h3>Reinforcement Learning is by far the most unique and interesting method of the 3 methods since it does not train 
+                            Machine Learning models on data sets. Instead, it trains models on a kind of reward system. To simplify it, the 
+                            actions that the model makes are measured. If the model makes an action that either contributes to the accomplishment 
+                            of its intended task or IS its intended task, the model is rewarded. Meanwhile, if the model makes an action that 
+                            does not contribute to its task, it is either not rewarded or punished. As time passes, the model will start to learn 
+                            which actions give it the most points (and by extension, which actions get it to accomplish its task) and which ones 
+                            do not. Thus, through Reinforcement Learning, a model can learn how to accomplish its task through a reward system.
+                        </h3>
+                    </div>
+                    <div class = "image_box">
+                        <img src = "images/reinforcement-learning.png" width = "100%" id = "supervised">
+                    </div>
+                </div>
+                <div class = "content_box_one_item" id = "background_box_3">
+                    <div class = "text_box" width = "75%">
+                        <h1>How is Machine Learning relevant to our daily lives?</h1>
+                        <h3>Machine Learning affects us a lot every day as we constantly use the products of Machine Learning. For instance, we 
+                            have search engines like Google and Bing that allow us to navigate the internet and find information that we need. 
+                            Their search engines are based on complex algorithms that were created through methods of Machine Learning. We also 
+                            have Facebook and YouTube with recommendation systems that decide what posts or videos to show you by looking at your 
+                            previous viewing histories. These recommendation systems are also products of the methods in the field of Machine 
+                            Learning. In truth, even if most of the population doesn't know it, the field of Machine Learning has majorly 
+                            affected us in our daily lives as it has allowed us to make advancements in both science and technology It has 
+                            allowed us to push technology to a level that it hasn't been on before. But most importantly of all, it has allowed 
+                            us to solve major problems in the world that have plagued not just our daily lives, but our society for many years.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class = "main_box" id = "ml_examples">
+                <div class = "examples_content">
+                    <h1>Showcase</h1>
+                    <h3>As we talked about in the last section, the products of Machine Learning are everywhere and we use them almost every day. 
+                        However, I know what you're asking: what are the more notable uses and products of Machine Learning? What are some of 
+                        the more notable products that not only utilize Machine Learning, but also bring it to its absolute limits in order to 
+                        create incredibly advanced technology? Well, below are some examples of these kinds of projects.
+                    </h3>   
+                </div>
+                <div class = "examples_content">
+                    <h1>Voice Synthesis</h1>
+                    <div class = "iframe_holder">
+                        <iframe src = "https://www.tetyys.com/SAPI4/" height = "100%" width = "100%"></iframe>
+                    </div>
+                </div>
+                <div class = "examples_content">
+                    <h1>Grammar Checking</h1>
+                    <div class = "iframe_holder">
+                        <iframe src = "https://www.grammarcheck.net/editor/" height = "100%" width = "100%"></iframe>
+                    </div>
+                </div>
+                <div class = "examples_content">
+                    <h1>Image Generation</h1>
+                    <div class = "iframe_holder">
+                        <iframe src = "https://freeimagegenerator.com/" height = "100%" width = "100%"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class = "main_box" id = "about_me">
+                <div class = "content_box_two_items">
+                    <div class = "text_box">
+                        <h1>About Me</h1>
+                        <h2>Hello! My name is James Wayne P. Atkinson and I am a Grade - 9 Pisay scholar. I have had an interest in Computer 
+                            Science and Programming for quite a while now and throughout my 3 years in Pisay, I have been slowly getting more 
+                            knowledgeable in Programming. Interestingly, I did try to learn Machine Learning and TensorFlow a few months ago 
+                            as I was interested in Machine Learning and the prospect of creating my own AI. Though I did gain knowledge from 
+                            this endeavor, I ultimately gave up on it as I realized that I probably didn't have the right knowledge to start 
+                            getting into Machine Learning. So, it interested me when I was assigned the topic of Machine Learning for this 
+                            project. I saw this project as an opportunity to revisit this topic and to test my knowledge and my growth ever since I gave up on the topic. Though there were some concepts that I didn’t really understand, I can fully say with confidence that I had grown since the last time I tried Machine Learning and for that, I am proud of myself.
+                        </h2>
+                    </div>
+                    <div class = "image_box">
+                        <img src = "images/About Us pic.jpg" width = "100%" id = "profile_pic">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1 id = "author">Made by James Wayne P. Atkinson</h1>
+            <h1 id = "email"><a href = "mailto:jatkinson@crc.pshs.edu.ph">jatkinson@crc.pshs.edu.ph</a></h1>
+        </footer>
+        <script>
+            document.getElementById("main_content").style.display = "block";
+            document.getElementById("ml_examples").style.display = "none";
+            document.getElementById("about_me").style.display = "none";
+
+            document.getElementById("main_button").onclick = function()  {
+                if (document.getElementById("main_content").style.display != "block")  {
+                    if (document.getElementById("ml_examples").style.display == "block")  {
+                        document.getElementById("ml_examples").style.display = "none";
+                    }
+                    else if (document.getElementById("about_me").style.display == "block")  {
+                        document.getElementById("about_me").style.display = "none";
+                    }
+
+                    document.getElementById("main_content").style.display = "block";
+                }
+            }
+
+            document.getElementById("examples_button").onclick = function()  {
+                if (document.getElementById("ml_examples").style.display != "block")  {
+                    if (document.getElementById("main_content").style.display == "block")  {
+                        document.getElementById("main_content").style.display = "none";
+                    }
+                    else if (document.getElementById("about_me").style.display == "block")  {
+                        document.getElementById("about_me").style.display = "none";
+                    }
+
+                    document.getElementById("ml_examples").style.display = "block";
+                }
+            }
+
+            document.getElementById("about_me_button").onclick = function()  {
+                if (document.getElementById("about_me").style.display != "block")  {
+                    if (document.getElementById("main_content").style.display == "block")  {
+                        document.getElementById("main_content").style.display = "none";
+                    }
+                    else if (document.getElementById("ml_examples").style.display == "block")  {
+                        document.getElementById("ml_examples").style.display = "none";
+                    }
+
+                    document.getElementById("about_me").style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
